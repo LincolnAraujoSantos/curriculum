@@ -1,0 +1,61 @@
+#header {
+    background-color: rgb(150, 150, 150);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    /*passa o texto para maiusculo*/
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#nameAndTitle h1,
+h2 {
+    margin: 0;
+}
+
+h1 h2,
+h3 {
+    text-transform: uppercase;
+}
+
+#contact, #cursos, #faculdade {
+    list-style-type: none
+}
+
+#contact i, #cursos i, #faculdade i {
+    width: 30px;
+    color: rgb(150, 150, 150);
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#siderbar,
+#content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+
+.card h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
